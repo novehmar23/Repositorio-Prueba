@@ -8,19 +8,15 @@ const { getStoredExperiences } = require("./data/experiences");
 
 const app = express();
 
+app.use(
+  cors({
+    origin: "http://localhost:5173",
+    methods: ["GET", "POST"],
+    allowedHeaders: ["Content-Type"],
+  })
+);
+
 app.use(express.json());
-
-const corsOptions = {
-  origin: "http://mypersonalwebapp.s3-website-us-east-1.amazonaws.com",
-  methods: ["GET", "POST"],
-  allowedHeaders: ["Content-Type", "Authorization"],
-};
-
-app.use(cors(corsOptions));
-
-app.get("/", (req, res) => {
-  res.send("Hello World from the Backend!");
-});
 
 app.get("/posts", async (req, res) => {
   const storedPosts = await getStoredPosts();
@@ -81,6 +77,6 @@ app.post("/send-email", (req, res) => {
   });
 });
 
-app.listen(8080, "0.0.0.0", () => {
+app.listen(8080, () => {
   console.log("Backend listening on port: 8080");
 });
