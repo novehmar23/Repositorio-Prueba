@@ -10,13 +10,7 @@ const app = express();
 
 app.use(express.json());
 
-const corsOptions = {
-  origin: "http://mypersonalwebapp.s3-website-us-east-1.amazonaws.com",
-  methods: ["GET", "POST"],
-  allowedHeaders: ["Content-Type", "Authorization"],
-};
-
-app.use(cors(corsOptions));
+app.use(cors());
 
 app.get("/", (req, res) => {
   res.send("Hello World from the Backend!");
@@ -81,6 +75,6 @@ app.post("/send-email", (req, res) => {
   });
 });
 
-app.listen(8080, "0.0.0.0", () => {
+app.listen(8080, '0.0.0.0', () => {
   console.log("Backend listening on port: 8080");
 });
