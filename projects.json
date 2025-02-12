@@ -1,0 +1,90 @@
+{
+  "projects": [
+    {
+      "title": "Big data processing pipeline",
+      "landscapeImage": "./bigdataPipeline.jpg",
+      "portraitImage": "./bigdataPipelinePortrait2.jpg",
+      "description": "Creation of a Data Lake and a processing pipeline. (raw-ETL-DataLake-Dashboards)",
+      "publicationDate": "2026-11-01",
+      "skills": [
+        "Apache NiFi (ETL)",
+        "Hadoop HDFS (Data Lake)",
+        "Apache Spark (data processing)",
+        "Apache HIVE (data query)",
+        "Tableau (data visualization)"
+      ]
+    },
+    {
+      "title": "Web application for a voting system based on smart contracts",
+      "landscapeImage": "./votingSystemApp.jpg",
+      "portraitImage": "./votingSystemAppPortrait.jpg",
+      "description": "The project involved implementing an ERC-20 standard token and using it for a voting system. A user-friendly interface was created through a web page to make it accessible to clients",
+      "publicationDate": "2026-11-01",
+      "skills": [
+        "Solidity (smart contracts)",
+        "Truffle (for working with EVM)",
+        "OpenZeppelin (ERC-20)",
+        "Metamask (wallet & accounts)",
+        "Webpack",
+        "Web3"
+      ]
+    },
+    {
+      "title": "Big data processing pipeline",
+      "landscapeImage": "./bigdataPipeline.jpg",
+      "portraitImage": "./bigdataPipelinePortrait2.jpg",
+      "description": "Creation of a Data Lake and a processing pipeline. (raw-ETL-DataLake-Dashboards)",
+      "publicationDate": "2026-11-01",
+      "skills": [
+        "Apache NiFi (ETL)",
+        "Hadoop HDFS (Data Lake)",
+        "Apache Spark (data processing)",
+        "Apache HIVE (data query)",
+        "Tableau (data visualization)"
+      ]
+    },
+    {
+      "title": "Big data processing pipeline",
+      "landscapeImage": "./bigdataPipeline.jpg",
+      "portraitImage": "./bigdataPipelinePortrait2.jpg",
+      "description": "Creation of a Data Lake and a processing pipeline. (raw-ETL-DataLake-Dashboards)",
+      "skills": [
+        "Apache NiFi (ETL)",
+        "Hadoop HDFS (Data Lake)",
+        "Apache Spark (data processing)",
+        "Apache HIVE (data query)",
+        "Tableau (data visualization)"
+      ]
+    },
+    {
+      "title": "Web application for a voting system based on smart contracts",
+      "landscapeImage": "./votingSystemApp.jpg",
+      "portraitImage": "./votingSystemAppPortrait2.jpg",
+      "description": "The project involved implementing an ERC-20 standard token and using it for a voting system. A user-friendly interface was created through a web page to make it accessible to clients",
+      "publicationDate": "2026-11-01",
+      "skills": [
+        "Solidity (smart contracts)",
+        "Truffle (for working with EVM)",
+        "OpenZeppelin (ERC-20)",
+        "Metamask (wallet & accounts)",
+        "Webpack",
+        "Web3"
+      ]
+    },
+    {
+      "title": "Chrome Extension for Appointment Reminders (Freelance)",
+      "landscapeImage": "./votingSystemApp.jpg",
+      "portraitImage": "./votingSystemAppPortrait.jpg",
+      "description": "Developed a Chrome extension to send WhatsApp appointment reminders by integrating Google Calendar with WhatsApp. Business API. - Designed a pop-up for users to review and confirm messages before sending, based on pre-created templates. - Significantly reduced staff time managing reminders, streamlining communication and improving scheduling efficiency, while boosting the company's landscapeImage with automation.",
+      "publicationDate": "2026-11-01",
+      "skills": [
+        "WhatsApp Business API",
+        "Meta for Developers",
+        "AWS Lambda",
+        "DynamoDB",
+        " Chrome Extensions",
+        "JavaScript"
+      ]
+    }
+  ]
+}

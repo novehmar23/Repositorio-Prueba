@@ -1,0 +1,122 @@
+{
+  "experiences": [
+    {
+      "title": "Chrome Extension for Appointment Reminders (Freelance)",
+      "company": "Sarmiento Ophthalmology Clinic",
+      "fromDate": "2024-11-01",
+      "toDate": "2024-12-01",
+      "image": "./bigdataPipeline.jpg",
+      "techStack": [
+        "WhatsApp Business API",
+        "Meta for Developers",
+        "AWS Lambda",
+        "DynamoDB",
+        "Chrome Extensions",
+        "JavaScript"
+      ],
+      "description": [
+        "Developed a Chrome extension to send WhatsApp appointment reminders by integrating Google Calendar with WhatsApp Business API",
+        "Designed a pop-up for users to review and confirm messages before sending, based on pre-created templates.",
+        "Significantly reduced staff time managing reminders, streamlining communication and improving scheduling efficiency, while boosting the company's image with automation"
+      ],
+      "awsServicesUsed": []
+    },
+    {
+      "description": [
+        "Took a 6-month break to travel around the world in a group of 200 professionals, gaining valuable experiences that enhanced my communication skills and fostered cross-cultural collaboration"
+      ]
+    },
+    {
+      "title": "Full Stack Software Engineer in HCM Integrations",
+      "company": "Globalization Partners (through Blend 360)",
+      "fromDate": "2022-01-01",
+      "toDate": "2024-05-01",
+      "image": "./bigdataPipeline.jpg",
+      "techStack": [
+        "ReactJS",
+        "NodeJS",
+        "Java",
+        "AWS",
+        "Microservices",
+        "Serverless",
+        "Event Driven",
+        "CI/CD",
+        "Terragrunt",
+        "New Relic",
+        "Heap",
+        "Tableau"
+      ],
+      "description": [
+        "Developed and maintained integrations connecting our platform with Human Capital Management (HCM) systems.",
+        "Contributed to transitioning a monolithic legacy application (Java) to a scalable microservices architecture (Node.js).",
+        "Supported the migration of services to a serverless, event-driven architecture, reducing operational overhead by 20%.",
+        "Created a reusable integration framework, streamlining processes and cutting development time by 30%.",
+        "Improved observability by implementing dashboards and metrics with New Relic (service metrics), Heap (ux metrics), and Tableau (BI metrics), achieving 45% faster incident response times.",
+        "Contributed to Data Warehouse to Data Lake migration, collaborating with DevOps, Data Engineering, and Data Analytics teams to create effective dashboards."
+      ],
+      "awsServicesUsed": [
+        "ECR",
+        "ECS",
+        "RDS",
+        "Fargate",
+        "System Manager",
+        "CloudWatch",
+        "SNS",
+        "SQS",
+        "Lambda",
+        "SAM",
+        "CodePipeline",
+        "DynamoDB",
+        "Step Functions",
+        "X-Ray",
+        "CloudFormation",
+        "API Gateway"
+      ]
+    },
+    {
+      "title": "Blockchain-Based Traceability Web Application (Freelance)",
+      "company": "Rice Chain",
+      "fromDate": "2023-05-01",
+      "toDate": "2024-04-01",
+      "image": "./bigdataPipeline.jpg",
+      "techStack": [
+        "ReactJS",
+        "NodeJS",
+        "AWS",
+        "Blockchain",
+        "Hyperledger Fabric",
+        "Modular Monolith",
+        "Metadata Architecture",
+        "TDD"
+      ],
+      "description": [
+        "Developed RiceChain, a web-based platform to enhance traceability, transparency, and data immutability across production processes (e.g., rice) as part of my engineering thesis."
+      ],
+      "awsServicesUsed": [
+        "Amazon Managed Blockchain",
+        "RDS",
+        "DynamoDB",
+        "ECR",
+        "ECS",
+        "Fargate",
+        "CloudWatch",
+        "System Manager",
+        "CloudFormation",
+        "Cost Explorer"
+      ]
+    },
+    {
+      "title": "Tailored app for a lighting factory (Freelance)",
+      "company": "Tarmax S.A.",
+      "fromDate": "2021-05-01",
+      "toDate": "2021-12-01",
+      "image": "./bigdataPipeline.jpg",
+      "techStack": ["C#", ".NET", "Entity Framework", "MVC"],
+      "description": [
+        "Developed a tailored program to manage orders, control stock, and enhance coordination between departments, including features for identifying missing stock items for pending orders and generating data for lighting fixture manufacturing.",
+        "Expanded the system's functionality to include statistical analysis tools, optimizing sales and improving decision-making processes."
+      ],
+      "awsServicesUsed": []
+    }
+  ]
+}
