@@ -13,6 +13,10 @@ app.use(bodyParser.json());
 app.use(express.json());
 app.use(cors());
 
+app.get("/", (req, res) => {
+    res.send("Hello World from the Backend");
+});
+
 // app.use((req, res, next) => {
 //   // Attach CORS headers
 //   // Required when using a detached backend (that runs on a different domain)
@@ -88,5 +92,6 @@ app.post("/send-email", (req, res) => {
   });
 });
 
-app.listen(8080);
-console.log(`Backend listening on port: 8080`);
+app.listen(80, "0.0.0.0", () => {
+    console.log("Server listening in: 0.0.0.0:80");
+});
