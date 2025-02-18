@@ -1,11 +1,11 @@
 {
   "projects": [
     {
-      "title": "Big data processing pipeline",
+      "title": "Building a Data Pipeline: From Raw Data to Insights",
       "landscapeImage": "./bigdataPipeline2.jpg",
       "portraitImage": "./bigdataPipelinePortrait4.jpg",
-      "description": "Creation of a Data Lake and a processing pipeline. (raw - ETL - DataLake - Dashboards)",
-      "publicationDate": "2026-11-01",
+      "description": "Let’s explore the creation of an entire data pipeline. From raw data ingestion and ETL to Data Lake creation, processing pipelines, data models, and visualization in dashboards.",
+      "publicationDate": "2025-02-24",
       "skills": [
         "Apache NiFi",
         "Hadoop HDFS",
@@ -15,11 +15,11 @@
       ]
     },
     {
-      "title": "Web application for a voting system based on smart contracts",
+      "title": "Power Voting Systems with Smart Contracts: Secure and Transparent Elections",
       "landscapeImage": "./votingSystemApp4.jpg",
       "portraitImage": "./votingSystemAppPortrait4.jpg",
-      "description": "The project involved implementing an ERC-20 standard token and using it for a voting system. A user-friendly interface was created through a web page to make it accessible to clients",
-      "publicationDate": "2026-11-01",
+      "description": "How do you build a voting system on the blockchain? Let’s break down how an ERC-20 token was created and used for secure voting with a web interface that made it accessible to users.",
+      "publicationDate": "2025-03-10",
       "skills": [
         "Solidity",
         "Truffle",
@@ -30,11 +30,11 @@
       ]
     },
     {
-      "title": "Chrome Extension for Appointment Reminders",
+      "title": "Automating Appointment Reminders: A Chrome Extension with WhatsApp & Google Calendar",
       "landscapeImage": "./chromeExtention.jpg",
       "portraitImage": "./chromeExtentionProtrait3.jpg",
-      "description": "Developed a Chrome extension to send WhatsApp appointment reminders by integrating Google Calendar with WhatsApp.",
-      "publicationDate": "2026-11-01",
+      "description": "Let’s dive into how a Chrome extension was built to sync Google Calendar with WhatsApp, sending personalized and automated reminders with ease.",
+      "publicationDate": "2025-03-03",
       "skills": [
         "WhatsApp Business API",
         "Meta for Developers",
@@ -45,18 +45,102 @@
       ]
     },
     {
-      "title": "Chrome Extension for Appointment Reminders",
-      "landscapeImage": "./chromeExtention.jpg",
-      "portraitImage": "./chromeExtentionProtrait3.jpg",
-      "description": "Developed a Chrome extension to send WhatsApp appointment reminders by integrating Google Calendar with WhatsApp.",
-      "publicationDate": "2026-11-01",
+      "title": "From Zero to Hero: How to tackle a project from scratch",
+      "landscapeImage": "./genericLandscape50.png",
+      "portraitImage": "./genericPortrait50.png",
+      "description": "Let’s break down the analysis needed before starting coding to reach the best architecture, infrastructure and technologies to use for the situations that your system needs to face. based on the time, budget and team size. We’ll walk through Functional Requirements (FRs), NFRs, Quality Attributes, time, budget, team size and expertise.",
+      "publicationDate": "2025-03-03",
       "skills": [
-        "WhatsApp Business API",
-        "Meta for Developers",
-        "AWS Lambda",
+        "Full Stack",
+        "Architecture",
+        "Infrastructure",
+        "CI/CD",
+        "DevOps"
+      ]
+    },
+    {
+      "title": "Structuring Your Project Like a Pro: It's just a Matter of Perspective",
+      "landscapeImage": "./genericLandscape50.png",
+      "portraitImage": "./genericPortrait50.png",
+      "description": "Think of your system as a set of interconnected structures at different levels. Should you go with hexagonal, MVC, layered, modular, or clean architecture? In other levels of decisions to make should you go for a monolith, modular monolith, microservices, serverless, event-driven? Let’s dissect architectural choices and design patterns to find the best fit.",
+      "publicationDate": "2025-03-03",
+      "skills": [
+        "Architecture",
+        "Microservices",
+        "Serverless",
+        "Event Driven",
+        "Metadata Architecture",
+        "Modular Monolith",
+        "NodeJS"
+      ]
+    },
+    {
+      "title": "SQL, NoSQL, ... Blockchain? Choosing the Right Database",
+      "landscapeImage": "./genericLandscape50.png",
+      "portraitImage": "./genericPortrait50.png",
+      "description": "Relational or non-relational? Structured or flexible? And wait - should you even consider blockchain? Let’s navigate the database jungle and figure out which one best suits your use case.",
+      "publicationDate": "2025-03-03",
+      "skills": [
         "DynamoDB",
-        "Chrome Extensions",
-        "JavaScript"
+        "RDS",
+        "Blockchain",
+        "Solidity",
+        "AWS",
+        "Infrastructure"
+      ]
+    },
+    {
+      "title": "Mastering Observability: Based on what layer you want to observe",
+      "landscapeImage": "./genericLandscape50.png",
+      "portraitImage": "./genericPortrait50.png",
+      "description": "Observability isn’t just about logs, it’s about knowing exactly what’s happening at every layer. From service monitoring (e.g: New Relic) to user interaction tracking (e.g: Heap) to business intelligence (e.g: Tableau), let’s explore how to keep an eye on everything.",
+      "publicationDate": "2025-03-03",
+      "skills": ["New Relic", "Heap", "Tableau", "CloudWatch", "X-Ray"]
+    },
+    {
+      "title": "Public vs. Private Blockchain: Which One Do You Really Need?",
+      "landscapeImage": "./genericLandscape50.png",
+      "portraitImage": "./genericPortrait50.png",
+      "description": "Let’s break down when a public blockchain makes sense and when a private one is the better choice. We’ll also see what AWS offers in terms of Blockchain as a Service: Ethereum (public) or Hyperledger Fabric (private). ",
+      "publicationDate": "2025-03-03",
+      "skills": ["Blockchain", "AWS", "Infrastructure"]
+    },
+    {
+      "title": "Choosing the Right Communication Protocol: REST, GraphQL, WebSockets, gRPC & More",
+      "landscapeImage": "./genericLandscape50.png",
+      "portraitImage": "./genericPortrait50.png",
+      "description": "Should you go RESTful, SOAP, GraphQL, or gRPC? Do you need real-time communication with WebSockets or is a simple WebHook enough for your needs? Let’s dive into the world of protocols and find the perfect fit for your system.",
+      "publicationDate": "2025-03-03",
+      "skills": ["GraphQL", "API Gateway", "WebSockets", "WebHooks"]
+    },
+    {
+      "title": "Behind the Scenes: How I Built My Personal Website",
+      "landscapeImage": "./genericLandscape50.png",
+      "portraitImage": "./genericPortrait50.png",
+      "description": "Curious about how this website was built? Or struggled with handling a large amount of content when creating a website? Let’s dive in into how a Headless Content Manager System and Tailwind made the process smooth and efficient. ",
+      "publicationDate": "2025-03-03",
+      "skills": [
+        "ReactJS",
+        "Strapi Headless CMS",
+        "Tailwind",
+        "NodeJS",
+        "Frontend",
+        "AWS",
+        "Infrastructure"
+      ]
+    },
+    {
+      "title": "Too Much Content? Here’s How to Handle Large-Scale Web Apps",
+      "landscapeImage": "./genericLandscape50.png",
+      "portraitImage": "./genericPortrait50.png",
+      "description": "When your app needs to handle tons of content (like blog posts), how do you manage it efficiently? Should you use a traditional CMS or go headless? Let’s break down the best ways to manage and serve large amounts of dynamic content.",
+      "publicationDate": "2025-03-03",
+      "skills": [
+        "Strapi Headless CMS",
+        "Tailwind",
+        "ReactJS",
+        "Backend",
+        "Infrastructure"
       ]
     }
   ]

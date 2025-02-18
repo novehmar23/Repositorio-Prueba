@@ -6,6 +6,7 @@ const cors = require("cors");
 const { getStoredPosts, storePosts } = require("./data/posts");
 const { getStoredProjects } = require("./data/projects");
 const { getStoredExperiences } = require("./data/experiences");
+const { getStoredSkills } = require("./data/skills");
 
 const app = express();
 
@@ -14,7 +15,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get("/", (req, res) => {
-    res.send("Hello World from the Backend");
+  res.send("Hello World from the Backend");
 });
 
 // app.use((req, res, next) => {
@@ -25,6 +26,9 @@ app.get("/", (req, res) => {
 //   res.setHeader("Access-Control-Allow-Headers", "Content-Type");
 //   next();
 // });
+app.get("/", (req, res) => {
+  res.send("¡Hello from the backend!");
+});
 
 app.get("/posts", async (req, res) => {
   const storedPosts = await getStoredPosts();
@@ -92,6 +96,12 @@ app.post("/send-email", (req, res) => {
   });
 });
 
+app.get("/skills", async (req, res) => {
+  const storedSkills = await getStoredSkills();
+  // await new Promise((resolve, reject) => setTimeout(() => resolve(), 1500));
+  res.json({ skills: storedSkills });
+});
+
 app.listen(80, "0.0.0.0", () => {
-    console.log("Server listening in: 0.0.0.0:80");
+  console.log("Servidor escuchando en IPv4: 0.0.0.0:80");
 });
